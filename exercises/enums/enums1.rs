@@ -1,12 +1,12 @@
-// enums1.rs
-//
-// No hints this time! ;)
-
-// I AM NOT DONE
+// exercises/enums/enums1.rs
 
 #[derive(Debug)]
 enum Message {
-    // TODO: define a few types of messages as used below
+    // 定义四个枚举变体
+    Quit,
+    Echo,
+    Move,
+    ChangeColor,
 }
 
 fn main() {

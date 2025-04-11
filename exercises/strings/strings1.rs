@@ -1,11 +1,4 @@
-// strings1.rs
-//
-// Make me compile without changing the function signature!
-//
-// Execute `rustlings hint strings1` or use the `hint` watch subcommand for a
-// hint.
-
-// I AM NOT DONE
+// exercises/strings/strings1.rs
 
 fn main() {
     let answer = current_favorite_color();
@@ -13,5 +6,5 @@ fn main() {
 }
 
 fn current_favorite_color() -> String {
-    "blue"
+    "blue".to_string()  // 将 &str 转换为 String
 }
